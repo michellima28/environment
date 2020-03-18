@@ -39,3 +39,10 @@ sudo snap install spotify
 sudo apt update
 sudo apt install git
 
+# wps office
+sudo apt-get install snapd
+sudo snap install wps-office
+
+# musescore
+sudo add-apt-repository ppa:mscore-ubuntu/mscore3-stable
+sudo apt install musescore3
