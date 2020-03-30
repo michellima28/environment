@@ -10,6 +10,10 @@ sudo apt install python3-pip
 # jupyter
 sudo snap install jupyter
 
+# mongodb
+sudo apt update
+sudo apt install mongodb
+
 # java
 sudo apt-get update
 sudo apt-get install default-jre
