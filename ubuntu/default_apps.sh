@@ -1,8 +1,10 @@
+#!/bin/bash
+
 # script to install all default programs I use on Ubuntu
 # it was tested on Ubuntu 19.01
 
 # vim editor 
-sudo apt install vim
+#sudo apt install vim
 
 # pip3 installer
 sudo apt install python3-pip
@@ -11,15 +13,15 @@ sudo apt install python3-pip
 sudo snap install jupyter
 
 # mongodb
-sudo apt update
-sudo apt install mongodb
+#sudo apt update
+#sudo apt install mongodb
 
 # java
 sudo apt-get update
 sudo apt-get install default-jre
 
 # scala
-sudo apt-get install scala
+#sudo apt-get install scala
 
 # py for j library
 pip3 install py4j
@@ -50,3 +52,11 @@ sudo snap install wps-office
 # musescore
 sudo add-apt-repository ppa:mscore-ubuntu/mscore3-stable
 sudo apt install musescore3
+
+# sublime text
+wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+sudo apt-get install apt-transport-https
+echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+sudo apt-get update
+sudo apt-get install sublime-text
+
