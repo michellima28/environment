@@ -1,30 +1,23 @@
 #!/bin/bash
 
 # script to install all default programs I use on Ubuntu
-# it was tested on Ubuntu 19.01
+# it was tested on Ubuntu 19.10
 
 # vim editor 
-#sudo apt install vim
+sudo apt install vim
 
-# pip3 installer
-sudo apt install python3-pip
+# pip installer
+sudo apt install python-pip
 
-# jupyter
-sudo snap install jupyter
-
-# mongodb
-#sudo apt update
-#sudo apt install mongodb
+# jupyter lab
+sudo pip install jupyterlab
 
 # java
 sudo apt-get update
 sudo apt-get install default-jre
 
-# scala
-#sudo apt-get install scala
-
 # py for j library
-pip3 install py4j
+pip install py4j
 
 # visual studio code
 sudo apt install curl
@@ -41,10 +34,6 @@ echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sourc
 sudo apt install snapd
 sudo snap install spotify
 
-# git
-sudo apt update
-sudo apt install git
-
 # wps office
 sudo apt-get install snapd
 sudo snap install wps-office
@@ -59,4 +48,3 @@ sudo apt-get install apt-transport-https
 echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
 sudo apt-get update
 sudo apt-get install sublime-text
-
