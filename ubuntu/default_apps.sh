@@ -58,3 +58,6 @@ sudo tar xzf Python-3.5.9.tgz
 cd Python-3.5.9
 sudo ./configure --enable-optimizations
 sudo make altinstall
+sudo apt-get install python3-pip
+pip3 install ipykernel
+python3 -m ipykernel install --user
