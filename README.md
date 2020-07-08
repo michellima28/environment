@@ -12,5 +12,6 @@ sudo apt install git
 ## fedora
 sudo yum install git-all
 
+
 After installing git you must clone environment repository to your machine and run the bash scripts.
 Enjoy it!
