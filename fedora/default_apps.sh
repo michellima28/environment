@@ -33,3 +33,12 @@ sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.m
 sudo dnf check-update
 sudo dnf install code
 
+# update firefox
+echo "updating firefox..."
+sudo yum update firefox
+
+# installing codecs
+echo "installing multimedia codecs"
+sudo dnf groupupdate multimedia
+sudo dnf install compat-ffmpeg28
+
