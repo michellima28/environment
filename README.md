@@ -8,6 +8,7 @@ Enjoy it!
 
 ## ubuntu
 sudo apt update
+
 sudo apt install git
 
 ## fedora
