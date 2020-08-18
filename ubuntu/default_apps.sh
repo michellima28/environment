@@ -93,3 +93,7 @@ sh hplip-3.20.2.run
 #sudo apt-get install playonlinux
 #sudo apt-get install winbind
 
+# multimedia codecs
+echo "installing multimedia codecs..."
+sudo apt install ubuntu-restricted-extras
+
