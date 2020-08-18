@@ -16,3 +16,46 @@ sudo apt install git
 fedora
 
 ubuntu
+
+# apps
+### fedora
+vim editor
+
+python 3.5.9
+
+jupyter lab
+
+visual studio code
+
+firefox
+
+multimedia codecs
+
+spotify
+
+### ubuntu
+vim editor
+
+pip installer
+
+jupyter lab
+
+java
+
+py4j
+
+visual studio code
+
+spotify
+
+wps office
+
+musescore
+
+sublime text
+
+python 3.5.9
+
+dbeaver
+
+hplip
