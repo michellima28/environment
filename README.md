@@ -12,7 +12,10 @@ sudo apt update
 
 sudo apt install git
 
-### 2. choose which linux distro you want to use and run .sh script 
+### 2. clone this repository into your computer
+git clone https://github.com/michellima28/environment.git
+
+### 3. choose which linux distro you want to use and run .sh script 
 fedora
 
 ubuntu
