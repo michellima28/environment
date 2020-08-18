@@ -59,3 +59,5 @@ python 3.5.9
 dbeaver
 
 hplip
+
+multimedia codecs
