@@ -40,8 +40,7 @@ sudo snap install wps-office
 
 # musescore
 echo "installing musescore..."
-sudo add-apt-repository ppa:mscore-ubuntu/mscore3-stable
-sudo apt install musescore3
+sudo flatpak install flathub org.musescore.MuseScore
 
 # sublime text
 echo "installing sublime text..."
