@@ -12,6 +12,10 @@ echo "installing firefox..."
 sudo apt get update
 sudo apt install firefox
 
+# pip installer
+echo "installing pip installer..."
+sudo apt install python-pip
+
 # jupyter lab
 echo "installing jupyer lab..."
 sudo pip install jupyterlab
