@@ -2,6 +2,8 @@
 
 This repository was built to store default apps and configurations that I use on my personal environment. I use Linux distros, until this present moment I have used three: Fedora, Ubuntu and Feren OS.
 
+---
+
 ## Instructions
 
 ### 1. Install git
@@ -45,6 +47,8 @@ Fedora
 Feren OS
 
 Ubuntu
+
+---
 
 ## Apps
 
