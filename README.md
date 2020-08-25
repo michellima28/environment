@@ -1,12 +1,13 @@
-# environment
-This repository was built to store default apps and configurations on my personal environment. I use Linux distros, until this present moment I have used three: Fedora, Ubuntu and Feren OS.
+# Environment
+This repository was built to store default apps and configurations that I use on my personal environment. I use Linux distros, until this present moment I have used three: Fedora, Ubuntu and Feren OS.
 
-# instructions
+## Instructions
 ### 1. install git
 
 #### fedora
+```bash
 sudo yum install git-all
-
+```
 #### feren os
 sudo apt update
 
