@@ -4,15 +4,15 @@ This repository was built to store default apps and configurations that I use on
 
 ## Instructions
 
-### 1. install git
+### 1. Install git
 
-#### fedora
+#### Fedora
 
 ```bash
 sudo yum install git-all
 ```
 
-#### feren os
+#### Feren OS
 
 ```bash
 sudo apt update
@@ -22,7 +22,7 @@ sudo apt update
 sudo apt install git
 ```
 
-#### ubuntu
+#### Ubuntu
 
 ```bash
 sudo apt update
@@ -32,23 +32,23 @@ sudo apt update
 sudo apt install git
 ```
 
-### 2. clone this repository into your computer
+### 2. Clone this repository into your computer
 
 ```bash
 git clone https://github.com/michellima28/environment.git
 ```
 
-### 3. choose which linux distro you want to use and run .sh script
+### 3. Choose which linux distro you want to use and run .sh script
 
-fedora
+Fedora
 
-feren os
+Feren OS
 
-ubuntu
+Ubuntu
 
-## apps
+## Apps
 
-### fedora
+### Fedora
 
 1. vim editor
 
@@ -64,7 +64,7 @@ ubuntu
 
 7. spotify
 
-### feren os
+### Feren OS
 
 1. vim editor
 
@@ -90,7 +90,7 @@ ubuntu
 
 12. hplip
 
-### ubuntu
+### Ubuntu
 
 1. vim editor
 
