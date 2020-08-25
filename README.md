@@ -22,11 +22,11 @@ sudo apt update
 ```bash
 sudo apt install git
 ```
-## 2. clone this repository into your computer
+### 2. clone this repository into your computer
 ```bash
 git clone https://github.com/michellima28/environment.git
 ```
-## 3. choose which linux distro you want to use and run .sh script 
+### 3. choose which linux distro you want to use and run .sh script 
 fedora
 
 feren os
@@ -35,70 +35,70 @@ ubuntu
 
 ## apps
 ### fedora
-vim editor
+1. vim editor
 
-python 3.5.9
+2. python 3.5.9
 
-jupyter lab
+3. jupyter lab
 
-visual studio code
+4. visual studio code
 
-firefox
+5. firefox
 
-multimedia codecs
+6. multimedia codecs
 
-spotify
+7. spotify
 
 ### feren os
-vim editor
+1. vim editor
 
-firefox
+2. firefox
 
-pip installer
+3. pip installer
 
-jupyter lab
+4. jupyter lab
 
-visual studio code
+5. visual studio code
 
-spotify
+6. spotify
 
-wps office
+7. wps office
 
-musescore
+8. musescore
 
-sublime text
+9. sublime text
 
-python 3.5.9
+10. python 3.5.9
 
-dbeaver
+11. dbeaver
 
-hplip
+12. hplip
 
 ### ubuntu
-vim editor
+1. vim editor
 
-pip installer
+2. pip installer
 
-jupyter lab
+3. jupyter lab
 
-java
+4. java
 
-py4j
+5. py4j
 
-visual studio code
+6. visual studio code
 
-spotify
+7. spotify
 
-wps office
+8. wps office
 
-musescore
+9. musescore
 
-sublime text
+10. sublime text
 
-python 3.5.9
+11. python 3.5.9
 
-dbeaver
+12. dbeaver
 
-hplip
+13. hplip
 
-multimedia codecs
+14. multimedia codecs
