@@ -9,26 +9,31 @@ This repository was built to store default apps and configurations that I use on
 sudo yum install git-all
 ```
 #### feren os
+```bash
 sudo apt update
-
+```
+```bash
 sudo apt install git
-
+```
 #### ubuntu
+```bash
 sudo apt update
-
+```
+```bash
 sudo apt install git
-
-### 2. clone this repository into your computer
+```
+## 2. clone this repository into your computer
+```bash
 git clone https://github.com/michellima28/environment.git
-
-### 3. choose which linux distro you want to use and run .sh script 
+```
+## 3. choose which linux distro you want to use and run .sh script 
 fedora
 
 feren os
 
 ubuntu
 
-# apps
+## apps
 ### fedora
 vim editor
 
