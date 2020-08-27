@@ -87,3 +87,7 @@ sh hplip-3.20.2.run
 #sudo apt-get update
 #sudo apt-get install playonlinux
 #sudo apt-get install winbind
+
+# retroarch
+echo "installing retroarch..."
+sudo snap install retroarch

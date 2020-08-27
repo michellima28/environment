@@ -97,3 +97,6 @@ sh hplip-3.20.2.run
 echo "installing multimedia codecs..."
 sudo apt install ubuntu-restricted-extras
 
+# retroarch
+echo "installing retroarch..."
+sudo snap install retroarch
