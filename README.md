@@ -94,6 +94,8 @@ Ubuntu
 
 12. hplip
 
+13. retroarch
+
 ### Ubuntu
 
 1. vim editor
@@ -123,3 +125,5 @@ Ubuntu
 13. hplip
 
 14. multimedia codecs
+
+15. retroarch
