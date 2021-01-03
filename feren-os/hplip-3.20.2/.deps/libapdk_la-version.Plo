@@ -1,0 +1,6 @@
+libapdk_la-version.lo: prnt/hpijs/version.cpp /usr/include/stdc-predef.h \
+ prnt/hpijs/config.h
+
+/usr/include/stdc-predef.h:
+
+prnt/hpijs/config.h:

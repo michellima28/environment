@@ -80,13 +80,27 @@ sudo snap install dbeaver-ce
 echo "installing hplip..."
 sh hplip-3.20.2.run
 
+# wine
+echo "installing wine..."
+sudo dpkg --add-architecture i386
+wget -qO - https://dl.winehq.org/wine-builds/winehq.key | sudo apt-key add -
+sudo apt-add-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ bionic main'
+sudo add-apt-repository ppa:cybermax-dexter/sdl2-backport
+sudo apt update
+sudo apt install --install-recommends winehq-stable
+
+
 # playonlinux
-#echo "installing playonlinux..."
-#wget -q "http://deb.playonlinux.com/public.gpg" -O- | sudo apt-key add -
-#sudo sh -c 'echo "deb http://deb.playonlinux.com/ $(lsb_release -sc) main" >> /etc/apt/sources.list.d/playonlinux.list'
-#sudo apt-get update
-#sudo apt-get install playonlinux
-#sudo apt-get install winbind
+echo "installing playonlinux..."
+wget -q "http://deb.playonlinux.com/public.gpg" -O- | sudo apt-key add -
+sudo sh -c 'echo "deb http://deb.playonlinux.com/ $(lsb_release -sc) main" >> /etc/apt/sources.list.d/playonlinux.list'
+sudo apt-get update
+sudo apt-get install playonlinux
+sudo apt-get install winbind
+sudo apt-get install xterm
+
+# poker stars app
+echo "downloading poker stars installation file..."
 
 # retroarch
 echo "installing retroarch..."

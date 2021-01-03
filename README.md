@@ -94,7 +94,13 @@ Ubuntu
 
 12. hplip
 
-13. retroarch
+13. wine
+
+14. play on linux
+
+15. poker stars
+
+16. retroarch
 
 ### Ubuntu
 

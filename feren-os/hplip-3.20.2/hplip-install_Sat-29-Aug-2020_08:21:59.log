@@ -1,0 +1,304 @@
+hplip-install[4612]: info: :
+hplip-install[4612]: info: :[01mHP Linux Imaging and Printing System (ver. 3.20.2)[0m
+hplip-install[4612]: info: :[01mHPLIP Installer ver. 5.1[0m
+hplip-install[4612]: info: :
+hplip-install[4612]: info: :Copyright (c) 2001-18 HP Development Company, LP
+hplip-install[4612]: info: :This software comes with ABSOLUTELY NO WARRANTY.
+hplip-install[4612]: info: :This is free software, and you are welcome to distribute it
+hplip-install[4612]: info: :under certain conditions. See COPYING file for more details.
+hplip-install[4612]: info: :
+hplip-install[4612]: info: :Installer log saved in: [01mhplip-install_Sat-29-Aug-2020_08:21:59.log[0m
+hplip-install[4612]: info: :
+error: You are running the installer as root. It is highly recommended that you run the installer as
+error: a regular (non-root) user. Do you still wish to continue?
+hplip-install[4612]: info: :
+note: Defaults for each question are maked with a '*'. Press <enter> to accept the default.
+hplip-install[4612]: info: :
+hplip-install[4612]: info: :
+hplip-install[4612]: info: :[01mINSTALLATION MODE[0m
+hplip-install[4612]: info: :[01m-----------------[0m
+hplip-install[4612]: info: :Automatic mode will install the full HPLIP solution with the most common options.
+hplip-install[4612]: info: :Custom mode allows you to choose installation options to fit specific requirements.
+hplip-install[4612]: info: :
+hplip-install[4612]: info: :
+hplip-install[4612]: info: :[01mINTRODUCTION[0m
+hplip-install[4612]: info: :[01m------------[0m
+hplip-install[4612]: info: :This installer will install HPLIP version 3.20.2 on your computer.
+hplip-install[4612]: info: :Please close any running package management systems now (YaST, Adept, Synaptic, Up2date, etc).
+hplip-install[4612]: info: :
+hplip-install[4612]: info: :
+hplip-install[4612]: info: :[01mDISTRO/OS CONFIRMATION[0m
+hplip-install[4612]: info: :[01m----------------------[0m
+hplip-install[4612]: info: :Distro appears to be Ubuntu 18.04.
+
+hplip-install[4612]: info: :
+hplip-install[4612]: info: :
+hplip-install[4612]: info: :[01mDISTRO/OS SELECTION[0m
+hplip-install[4612]: info: :[01m-------------------[0m
+hplip-install[4612]: info: :[01m
+Choose the name of the distro/OS that most closely matches your system:
+[0m
+hplip-install[4612]: info: :Num.  Distro/OS Name          
+hplip-install[4612]: info: :----  ------------------------
+hplip-install[4612]: info: :0     Mepis                   
+hplip-install[4612]: info: :1     Debian                  
+hplip-install[4612]: info: :2     SUSE Linux              
+hplip-install[4612]: info: :3     Mandriva Linux          
+hplip-install[4612]: info: :4     Fedora                  
+hplip-install[4612]: info: :5     Red Hat                 
+hplip-install[4612]: info: :6     Red Hat Enterprise Linux
+hplip-install[4612]: info: :7     Ubuntu                  
+hplip-install[4612]: info: :8     PCLinuxOS               
+hplip-install[4612]: info: :9     Linux Mint              
+hplip-install[4612]: info: :10    gOS                     
+hplip-install[4612]: info: :11    Linpus Linux            
+hplip-install[4612]: info: :12    Manjaro Linux           
+hplip-install[4612]: info: :13    IGOS                    
+hplip-install[4612]: info: :14    Boss                    
+hplip-install[4612]: info: :15    Linux From Scratch      
+hplip-install[4612]: info: :[01m
+Choose the version of "Ubuntu" that most closely matches your system:
+[0m
+hplip-install[4612]: info: :Num.  Distro/OS Version                       
+hplip-install[4612]: info: :----  ----------------------------------------
+hplip-install[4612]: info: :0     Unknown or not listed                   
+hplip-install[4612]: info: :1     10.04 ("Lucid", Released 2010)          
+hplip-install[4612]: info: :2     11.10 ("Oneiric", Released 13/10/2011)  
+hplip-install[4612]: info: :3     12.04 ("Precise", Released 28/04/2012)  
+hplip-install[4612]: info: :4     12.10 ("Quantal", Released 18/10/2012)  
+hplip-install[4612]: info: :5     13.04 ("Raring", Released 25/04/2013)   
+hplip-install[4612]: info: :6     13.10 ("Saucy", Released 17/10/2013)    
+hplip-install[4612]: info: :7     14.04 ("Trusty", Released 17/04/2014)   
+hplip-install[4612]: info: :8     14.10 ("Utopic", Released 23/10/2014)   
+hplip-install[4612]: info: :9     15.04 ("Vivid", Released 17/04/2015)    
+hplip-install[4612]: info: :10    15.10 ("Willy", Released 22/10/2015)    
+hplip-install[4612]: info: :11    16.04 ("Xenial", Released 17/04/2016)   
+hplip-install[4612]: info: :12    16.10 ("Yakkety", Released 13/10/2016)  
+hplip-install[4612]: info: :13    17.04 ("Zesty", Released 31/05/2017)    
+hplip-install[4612]: info: :14    17.10 ("Artful Aardvark", Released      
+      19/10/2017)                             
+hplip-install[4612]: info: :15    18.04 ("Bionic Beaver", Released        
+      5/04/2018)                              
+hplip-install[4612]: info: :16    18.10 ("Cosmic Cuttlefish", Released    
+      18/10/2018)                             
+hplip-install[4612]: info: :17    19.04 ("Cosmic Cuttlefish", Released    
+      18/10/2018)                             
+hplip-install[4612]: info: :18    19.10 ("Eoan Ermine", Released          
+      26/10/2019)                             
+hplip-install[4612]: info: :
+Distro set to: Ubuntu 18.04
+hplip-install[4612]: info: :
+Initializing. Please wait...
+hplip-install[4612]: info: :
+hplip-install[4612]: info: :
+hplip-install[4612]: info: :[01mINSTALLATION NOTES[0m
+hplip-install[4612]: info: :[01m------------------[0m
+hplip-install[4612]: info: :Enable the universe/multiverse repositories. Also be sure you are using the Ubuntu "Main" Repositories. See: https://help.ubuntu.com/community/Repositories/Ubuntu for more information.  Disable the CD-ROM/DVD source if you do not have the Ubuntu installation media inserted in the drive.
+hplip-install[4612]: info: :
+hplip-install[4612]: info: :
+hplip-install[4612]: info: :
+hplip-install[4612]: info: :[01mSECURITY PACKAGES[0m
+hplip-install[4612]: info: :[01m-----------------[0m
+hplip-install[4612]: info: :AppArmor is installed. 
+hplip-install[4612]: info: :AppArmor protects the application from external intrusion attempts making the application secure
+hplip-install[4612]: info: :
+hplip-install[4612]: info: :
+hplip-install[4612]: info: :[01mRUNNING PRE-INSTALL COMMANDS[0m
+hplip-install[4612]: info: :[01m----------------------------[0m
+hplip-install[4612]: info: :OK
+hplip-install[4612]: info: :
+hplip-install[4612]: info: :
+hplip-install[4612]: info: :[01mMISSING DEPENDENCIES[0m
+hplip-install[4612]: info: :[01m--------------------[0m
+hplip-install[4612]: info: :Following dependencies are not installed. HPLIP will not work if all REQUIRED dependencies are not installed and some of the HPLIP features will not work if OPTIONAL dependencies are not installed.
+hplip-install[4612]: info: :Package-Name         Component            Required/Optional   
+hplip-install[4612]: info: :libnetsnmp-devel     network              REQUIRED            
+hplip-install[4612]: info: :sane-devel           scan                 REQUIRED            
+hplip-install[4612]: info: :pil                  scan                 OPTIONAL            
+hplip-install[4612]: info: :cups-devel           base                 REQUIRED            
+hplip-install[4612]: info: :reportlab            fax                  OPTIONAL            
+hplip-install[4612]: info: :pyqt4                gui_qt4              REQUIRED            
+hplip-install[4612]: info: :libusb               base                 REQUIRED            
+hplip-install[4612]: info: :libtool              base                 REQUIRED            
+hplip-install[4612]: info: :cups-image           base                 REQUIRED            
+hplip-install[4612]: info: :python-notify        gui_qt4              OPTIONAL            
+hplip-install[4612]: info: :xsane                scan                 OPTIONAL            
+hplip-install[4612]: info: :libjpeg              base                 REQUIRED            
+hplip-install[4612]: info: :dbus                 fax                  REQUIRED            
+hplip-install[4612]: info: :avahi-utils          network              OPTIONAL            
+hplip-install[4612]: info: :
+hplip-install[4612]: info: :
+hplip-install[4612]: info: :[01mINSTALL MISSING REQUIRED DEPENDENCIES[0m
+hplip-install[4612]: info: :[01m-------------------------------------[0m
+note: Installation of dependencies requires an active internet connection.
+warning: Missing REQUIRED dependency: cups-devel (CUPS devel- Common Unix Printing System development files)
+warning: Missing REQUIRED dependency: libusb (libusb - USB library)
+warning: Missing REQUIRED dependency: libtool (libtool - Library building support services)
+warning: Missing REQUIRED dependency: cups-image (CUPS image - CUPS image development files)
+warning: Missing REQUIRED dependency: libjpeg (libjpeg - JPEG library)
+warning: Missing REQUIRED dependency: libnetsnmp-devel (libnetsnmp-devel - SNMP networking library development files)
+warning: Missing REQUIRED dependency: pyqt4 (PyQt 4- Qt interface for Python (for Qt version 4.x))
+warning: Missing REQUIRED dependency: dbus (DBus - Message bus system)
+warning: Missing REQUIRED dependency: sane-devel (SANE - Scanning library development files)
+hplip-install[4612]: info: :
+hplip-install[4612]: info: :
+hplip-install[4612]: info: :[01mINSTALL MISSING OPTIONAL DEPENDENCIES[0m
+hplip-install[4612]: info: :[01m-------------------------------------[0m
+note: Installation of dependencies requires an active internet connection.
+warning: Missing OPTIONAL dependency for option 'network': avahi-utils (avahi-utils)
+warning: Missing OPTIONAL dependency for option 'gui_qt4': python-notify (Python libnotify - Python bindings for the libnotify Desktop notifications)
+warning: Missing OPTIONAL dependency for option 'fax': reportlab (Reportlab - PDF library for Python)
+warning: Missing OPTIONAL dependency for option 'scan': pil (PIL - Python Imaging Library (required for commandline scanning with hp-scan))
+warning: This installer cannot install 'pil' for your distro/OS and/or version.
+warning: Missing OPTIONAL dependency for option 'scan': xsane (xsane - Graphical scanner frontend for SANE)
+hplip-install[4612]: info: :
+hplip-install[4612]: info: :
+hplip-install[4612]: info: :[01mCHECKING FOR NETWORK CONNECTION[0m
+hplip-install[4612]: info: :[01m-------------------------------[0m
+error: The network appears to be unreachable. Installation may not resolve all dependencies without access to distribution repositories.
+hplip-install[4612]: info: :
+hplip-install[4612]: info: :
+hplip-install[4612]: info: :[01mRUNNING PRE-PACKAGE COMMANDS[0m
+hplip-install[4612]: info: :[01m----------------------------[0m
+hplip-install[4612]: info: :sudo dpkg --configure -a (Pre-depend step 1)
+hplip-install[4612]: info: :sudo apt-get install --yes --force-yes -f (Pre-depend step 2)
+warning: An error occurred running 'sudo apt-get update'
+hplip-install[4612]: info: :sudo apt-get update (Pre-depend step 3)
+hplip-install[4612]: info: :OK
+hplip-install[4612]: info: :
+hplip-install[4612]: info: :
+hplip-install[4612]: info: :[01mDEPENDENCY AND CONFLICT RESOLUTION[0m
+hplip-install[4612]: info: :[01m----------------------------------[0m
+hplip-install[4612]: info: :Running 'sudo apt-get install --assume-yes libcups2-dev'
+Please wait, this may take several minutes...
+hplip-install[4612]: info: :Running 'sudo apt-get install --assume-yes cups-bsd'
+Please wait, this may take several minutes...
+hplip-install[4612]: info: :Running 'sudo apt-get install --assume-yes cups-client'
+Please wait, this may take several minutes...
+hplip-install[4612]: info: :Running 'sudo apt-get install --assume-yes libusb-1.0.0-dev'
+Please wait, this may take several minutes...
+hplip-install[4612]: info: :Running 'sudo apt-get install --assume-yes libusb-0.1-4'
+Please wait, this may take several minutes...
+hplip-install[4612]: info: :Running 'sudo apt-get install --assume-yes libtool'
+Please wait, this may take several minutes...
+hplip-install[4612]: info: :Running 'sudo apt-get install --assume-yes libtool-bin'
+Please wait, this may take several minutes...
+hplip-install[4612]: info: :Running 'sudo apt-get install --assume-yes libcupsimage2-dev'
+Please wait, this may take several minutes...
+hplip-install[4612]: info: :Running 'sudo apt-get install --assume-yes libjpeg-dev'
+Please wait, this may take several minutes...
+hplip-install[4612]: info: :Running 'sudo apt-get install --assume-yes libsnmp-dev'
+Please wait, this may take several minutes...
+hplip-install[4612]: info: :Running 'sudo apt-get install --assume-yes snmp-mibs-downloader'
+Please wait, this may take several minutes...
+hplip-install[4612]: info: :Running 'sudo apt-get install --assume-yes gtk2-engines-pixbuf'
+Please wait, this may take several minutes...
+hplip-install[4612]: info: :Running 'sudo apt-get install --assume-yes python-qt4'
+Please wait, this may take several minutes...
+hplip-install[4612]: info: :Running 'sudo apt-get install --assume-yes libdbus-1-dev'
+Please wait, this may take several minutes...
+hplip-install[4612]: info: :Running 'sudo apt-get install --assume-yes libsane-dev'
+Please wait, this may take several minutes...
+hplip-install[4612]: info: :Running 'sudo apt-get install --assume-yes avahi-utils'
+Please wait, this may take several minutes...
+hplip-install[4612]: info: :Running 'sudo apt-get install --assume-yes python-notify'
+Please wait, this may take several minutes...
+hplip-install[4612]: info: :Running 'sudo apt-get install --assume-yes python-reportlab'
+Please wait, this may take several minutes...
+hplip-install[4612]: info: :Running 'sudo apt-get install --assume-yes gtk2-engines-pixbuf'
+Please wait, this may take several minutes...
+hplip-install[4612]: info: :Running 'sudo apt-get install --assume-yes xsane'
+Please wait, this may take several minutes...
+hplip-install[4612]: info: :Starting uninstallation...
+hplip-install[4612]: info: :HPLIP uninstallation is completed
+hplip-install[4612]: info: :
+hplip-install[4612]: info: :
+hplip-install[4612]: info: :[01mRUNNING POST-PACKAGE COMMANDS[0m
+hplip-install[4612]: info: :[01m-----------------------------[0m
+hplip-install[4612]: info: :OK
+hplip-install[4612]: info: :
+hplip-install[4612]: info: :
+hplip-install[4612]: info: :[01mRE-CHECKING DEPENDENCIES[0m
+hplip-install[4612]: info: :[01m------------------------[0m
+warning: An optional dependency 'python-notify (Python libnotify - Python bindings for the libnotify Desktop notifications)' is still missing.
+warning: Some features may not function as expected.
+hplip-install[4612]: info: :
+hplip-install[4612]: info: :
+hplip-install[4612]: info: :[01mRUNNING SCANJET DEPENDENCY COMMANDS[0m
+hplip-install[4612]: info: :[01m-----------------------------------[0m
+hplip-install[4612]: info: :sudo apt-get install --assume-yes python-pip (Scanjet-depend step 1)
+hplip-install[4612]: info: :sudo pip2 install --upgrade pip (Scanjet-depend step 2)
+hplip-install[4612]: info: :sudo apt-get install --assume-yes libleptonica-dev (Scanjet-depend step 3)
+hplip-install[4612]: info: :sudo apt-get install --assume-yes tesseract-ocr (Scanjet-depend step 4)
+hplip-install[4612]: info: :sudo apt-get install --assume-yes libtesseract-dev (Scanjet-depend step 5)
+hplip-install[4612]: info: :sudo -H pip2 install tesserocr (Scanjet-depend step 6)
+hplip-install[4612]: info: :sudo apt-get install --assume-yes tesseract-ocr-all (Scanjet-depend step 7)
+hplip-install[4612]: info: :sudo apt-get install --assume-yes libzbar-dev (Scanjet-depend step 8)
+hplip-install[4612]: info: :sudo apt-get install --assume-yes python-zbar (Scanjet-depend step 9)
+hplip-install[4612]: info: :sudo -H pip2 install opencv-python (Scanjet-depend step 10)
+warning: Failed to install this Scanjet dependency package. Some Scanjet features will not work.
+hplip-install[4612]: info: :sudo -H pip2 install PyPDF2 (Scanjet-depend step 11)
+hplip-install[4612]: info: :sudo -H pip2 install imutils (Scanjet-depend step 12)
+hplip-install[4612]: info: :sudo -H pip2 install pypdfocr (Scanjet-depend step 13)
+hplip-install[4612]: info: :sudo -H pip2 install scikit-image (Scanjet-depend step 14)
+hplip-install[4612]: info: :sudo -H pip2 install scipy (Scanjet-depend step 15)
+hplip-install[4612]: info: :OK
+hplip-install[4612]: info: :
+hplip-install[4612]: info: :
+hplip-install[4612]: info: :[01mPRE-BUILD COMMANDS[0m
+hplip-install[4612]: info: :[01m------------------[0m
+hplip-install[4612]: info: :OK
+hplip-install[4612]: info: :
+hplip-install[4612]: info: :
+hplip-install[4612]: info: :[01mBUILD AND INSTALL[0m
+hplip-install[4612]: info: :[01m-----------------[0m
+hplip-install[4612]: info: :Running './configure --with-hpppddir=/usr/share/ppd/HP --libdir=/usr/lib --prefix=/usr --enable-qt4 --disable-qt5 --enable-doc-build --disable-cups-ppd-install --disable-foomatic-drv-install --disable-libusb01_build --disable-foomatic-ppd-install --disable-hpijs-install --disable-class-driver --disable-udev_sysfs_rules --disable-policykit --enable-cups-drv-install --enable-hpcups-install --enable-network-build --enable-dbus-build --enable-scan-build --enable-fax-build --enable-apparmor_build'
+Please wait, this may take several minutes...
+hplip-install[4612]: info: :Command completed successfully.
+hplip-install[4612]: info: :
+hplip-install[4612]: info: :Running 'make clean'
+Please wait, this may take several minutes...
+hplip-install[4612]: info: :Command completed successfully.
+hplip-install[4612]: info: :
+hplip-install[4612]: info: :Running 'make'
+Please wait, this may take several minutes...
+hplip-install[4612]: info: :Command completed successfully.
+hplip-install[4612]: info: :
+hplip-install[4612]: info: :Running 'sudo make install'
+Please wait, this may take several minutes...
+hplip-install[4612]: info: :Command completed successfully.
+hplip-install[4612]: info: :
+hplip-install[4612]: info: :
+Build complete.
+hplip-install[4612]: info: :
+hplip-install[4612]: info: :
+hplip-install[4612]: info: :
+hplip-install[4612]: info: :[01mPOST-BUILD COMMANDS[0m
+hplip-install[4612]: info: :[01m-------------------[0m
+hplip-install[4612]: info: :
+hplip-install[4612]: info: :
+hplip-install[4612]: info: :[01mCLOSE HP_SYSTRAY[0m
+hplip-install[4612]: info: :[01m----------------[0m
+hplip-install[4612]: info: :Sending close message to hp-systray (if it is currently running)...
+hplip-install[4612]: info: :OK
+hplip-install[4612]: info: :
+hplip-install[4612]: info: :
+hplip-install[4612]: info: :[01mHPLIP UPDATE NOTIFICATION[0m
+hplip-install[4612]: info: :[01m-------------------------[0m
+hplip-install[4612]: info: :
+hplip-install[4612]: info: :
+hplip-install[4612]: info: :[01mRESTART OR RE-PLUG IS REQUIRED[0m
+hplip-install[4612]: info: :[01m------------------------------[0m
+hplip-install[4612]: info: :If you are installing a USB connected printer, and the printer was plugged in when you started this installer, you will need to either restart your  
+hplip-install[4612]: info: :PC or unplug and re-plug in your printer (USB cable only). If you choose to restart, run this command after restarting: hp-setup (Note: If you are   
+hplip-install[4612]: info: :using a parallel connection, you will have to restart your PC. If you are using network/wireless, you can ignore and continue).                      
+hplip-install[4612]: info: :
+hplip-install[4612]: info: :
+hplip-install[4612]: info: :
+hplip-install[4612]: info: :[01mPRINTER SETUP[0m
+hplip-install[4612]: info: :[01m-------------[0m
+hplip-install[4612]: info: :Please make sure your printer is connected and powered on at this time.
+hplip-install[4612]: info: :
+hplip-install[4612]: info: :
+hplip-install[4612]: info: :[01mRE-STARTING HP_SYSTRAY[0m
+hplip-install[4612]: info: :[01m----------------------[0m

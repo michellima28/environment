@@ -1,0 +1,8 @@
+libapdk_la-breaks_open.lo: prnt/hpijs/breaks_open.cpp \
+ /usr/include/stdc-predef.h prnt/hpijs/config.h prnt/hpijs/resources.h
+
+/usr/include/stdc-predef.h:
+
+prnt/hpijs/config.h:
+
+prnt/hpijs/resources.h:

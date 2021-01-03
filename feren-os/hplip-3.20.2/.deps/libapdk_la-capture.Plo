@@ -1,0 +1,3 @@
+libapdk_la-capture.lo: prnt/hpijs/capture.cpp /usr/include/stdc-predef.h
+
+/usr/include/stdc-predef.h:

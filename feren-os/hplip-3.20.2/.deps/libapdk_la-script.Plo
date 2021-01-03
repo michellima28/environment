@@ -1,0 +1,3 @@
+libapdk_la-script.lo: prnt/hpijs/script.cpp /usr/include/stdc-predef.h
+
+/usr/include/stdc-predef.h:
