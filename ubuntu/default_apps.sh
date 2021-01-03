@@ -83,7 +83,10 @@ sudo snap install dbeaver-ce
 # https://www.vivaolinux.com.br/artigo/Instalando-a-impressora-HP-D1460-(serie-D1400)-no-Linux
 # https://developers.hp.com/hp-linux-imaging-and-printing/install/install/index
 echo "installing hplip..."
+cp -r ~/github/environment/hplip-3.20.2.run /home/$USER/
+cd /home/$USER/
 sh hplip-3.20.2.run
+cd /home/$USER/github/environment/ubuntu/
 
 # playonlinux
 #echo "installing playonlinux..."

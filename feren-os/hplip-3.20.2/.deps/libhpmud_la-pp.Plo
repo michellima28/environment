@@ -1,3 +1,0 @@
-libhpmud_la-pp.lo: io/hpmud/pp.c /usr/include/stdc-predef.h
-
-/usr/include/stdc-predef.h:
