@@ -104,6 +104,9 @@ sudo apt-get install xterm
 
 # poker stars app
 echo "downloading poker stars installation file..."
+cd /home/$USER 
+wget -c http://www.pokerstars.com/PokerStarsInstall.exe
+cd /home/$USER/github/environment/feren-os/
 
 # retroarch
 echo "installing retroarch..."
