@@ -42,9 +42,10 @@ sudo apt install snapd
 sudo snap install spotify
 
 # wps office
-echo "installing wps office..."
-sudo apt-get install snapd
-sudo snap install wps-office
+echo "installing wps office 2019..."
+wget https://wdl1.pcfg.cache.wpscdn.com/wpsdl/wpsoffice/download/linux/10161/wps-office_11.1.0.10161.XA_amd64.deb
+sudo dpkg -i wps-office_11.1.0.10161.XA_amd64.deb
+sudo rm -rf wps-office_11.1.0.10161.XA_amd64.deb
 
 # musescore
 echo "installing musescore..."
@@ -103,3 +104,11 @@ sudo apt install ubuntu-restricted-extras
 # retroarch
 echo "installing retroarch..."
 sudo snap install retroarch
+
+# zoom
+echo "installing zoom..."
+wget https://zoom.us/client/latest/zoom_amd64.deb
+sudo dpkg -i zoom_amd64.deb
+sudo rm -rf zoom_amd64.deb
+
+echo "the script has finished. your apps has been installed!"

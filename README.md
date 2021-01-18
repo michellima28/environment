@@ -102,6 +102,8 @@ Ubuntu
 
 16. retroarch
 
+17. zoom
+
 ### Ubuntu
 
 1. vim editor
@@ -133,3 +135,5 @@ Ubuntu
 14. multimedia codecs
 
 15. retroarch
+
+16. zoom
