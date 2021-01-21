@@ -119,6 +119,42 @@ Ubuntu
 
 18. chrome
 
+### Pop OS
+
+1. vim editor
+
+2. visual studio code
+
+3. spotify
+
+4. wps-office 2019
+
+5. musescore
+
+6. sublime text
+
+7. python 3.5.9
+
+8. jupyter lab
+
+9. dbeaver
+
+10. hplip
+
+11. wine
+
+12. poker stars app
+
+13. multimedia codecs
+
+14. retroarch
+
+15. zoom
+
+16. chrome
+
+17. gnome-tweaks
+ 
 ### Ubuntu
 
 1. vim editor
