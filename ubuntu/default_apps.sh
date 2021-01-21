@@ -115,6 +115,7 @@ sudo dpkg -i zoom_amd64.deb
 sudo rm -rf zoom_amd64.deb
 
 # chrome
+echo "installing chrome..."
 cd /home/$USER/
 https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install ./google-chrome-stable_current_amd64.deb
