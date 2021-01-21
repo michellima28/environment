@@ -7,22 +7,9 @@
 echo "installing vim editor..."
 sudo apt install vim
 
-# pip installer
-echo "installing pip installer..."
-sudo apt install python-pip
-
 # jupyter lab
 echo "installing jupyer lab..."
 sudo pip install jupyterlab
-
-# java
-echo "installing java..."
-sudo apt-get update
-sudo apt-get install default-jre
-
-# py for j library
-echo "installing py4j..."
-pip install py4j
 
 # visual studio code
 echo "installing visual studio code..."
@@ -41,7 +28,7 @@ echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sourc
 sudo apt install snapd
 sudo snap install spotify
 
-# wps office
+# wps office 2019
 echo "installing wps office 2019..."
 wget https://wdl1.pcfg.cache.wpscdn.com/wpsdl/wpsoffice/download/linux/10161/wps-office_11.1.0.10161.XA_amd64.deb
 sudo dpkg -i wps-office_11.1.0.10161.XA_amd64.deb
@@ -89,13 +76,29 @@ cd /home/$USER/
 sh hplip-3.20.2.run
 cd /home/$USER/github/environment/ubuntu/
 
+# wine
+echo "installing wine..."
+sudo dpkg --add-architecture i386
+wget -qO - https://dl.winehq.org/wine-builds/winehq.key | sudo apt-key add -
+sudo apt-add-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ bionic main'
+sudo add-apt-repository ppa:cybermax-dexter/sdl2-backport
+sudo apt update
+sudo apt install --install-recommends winehq-stable
+
 # playonlinux
-#echo "installing playonlinux..."
-#wget -q "http://deb.playonlinux.com/public.gpg" -O- | sudo apt-key add -
-#sudo sh -c 'echo "deb http://deb.playonlinux.com/ $(lsb_release -sc) main" >> /etc/apt/sources.list.d/playonlinux.list'
-#sudo apt-get update
-#sudo apt-get install playonlinux
-#sudo apt-get install winbind
+echo "installing playonlinux..."
+wget -q "http://deb.playonlinux.com/public.gpg" -O- | sudo apt-key add -
+sudo sh -c 'echo "deb http://deb.playonlinux.com/ $(lsb_release -sc) main" >> /etc/apt/sources.list.d/playonlinux.list'
+sudo apt-get update
+sudo apt-get install playonlinux
+sudo apt-get install winbind
+sudo apt-get install xterm
+
+# poker stars app
+echo "downloading poker stars installation file..."
+cd /home/$USER 
+wget -c http://www.pokerstars.com/PokerStarsInstall.exe
+cd /home/$USER/github/environment/ubuntu/
 
 # multimedia codecs
 echo "installing multimedia codecs..."
@@ -110,5 +113,12 @@ echo "installing zoom..."
 wget https://zoom.us/client/latest/zoom_amd64.deb
 sudo dpkg -i zoom_amd64.deb
 sudo rm -rf zoom_amd64.deb
+
+# chrome
+cd /home/$USER/
+https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb
+rm -rf google-chrome-stable_current_amd64.deb
+cd /home/$USER/github/environment/ubuntu/
 
 echo "the script has finished. your apps has been installed!"
