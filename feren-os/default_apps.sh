@@ -73,7 +73,7 @@ python3 -m ipykernel install --user
 echo "installing dbeaver..."
 sudo snap install dbeaver-ce
 
-# hplip
+# hplip 3.20.2
 # this is a software to enable using hp printers on linux
 # useful links:
 # https://www.vivaolinux.com.br/artigo/Instalando-a-impressora-HP-D1460-(serie-D1400)-no-Linux
