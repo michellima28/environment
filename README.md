@@ -24,6 +24,16 @@ sudo apt update
 sudo apt install git
 ```
 
+#### Pop OS
+
+```bash
+sudo apt update
+```
+
+```bash
+sudo apt install git
+```
+
 #### Ubuntu
 
 ```bash
@@ -37,14 +47,17 @@ sudo apt install git
 ### 2. Clone this repository into your computer
 
 ```bash
+mkdir /home/$USER/github && cd /home/$USER/github
 git clone https://github.com/michellima28/environment.git
 ```
 
-### 3. Choose which linux distro you want to use and run .sh script
+### 3. Choose which linux distro you want to use and run default_apps.sh file
 
 Fedora
 
 Feren OS
+
+Pop OS
 
 Ubuntu
 
@@ -82,7 +95,7 @@ Ubuntu
 
 6. spotify
 
-7. wps office
+7. wps office 2019
 
 8. musescore
 
@@ -104,36 +117,40 @@ Ubuntu
 
 17. zoom
 
+18. chrome
+
 ### Ubuntu
 
 1. vim editor
 
-2. pip installer
+2. jupyter lab
 
-3. jupyter lab
+3. visual studio code
 
-4. java
+4. spotify
 
-5. py4j
+5. wps office 2019
 
-6. visual studio code
+6. musescore
 
-7. spotify
+7. sublime text
 
-8. wps office
+8. python 3.5.9
 
-9. musescore
+9. dbeaver
 
-10. sublime text
+10. hplip
 
-11. python 3.5.9
+11. wine
 
-12. dbeaver
+12. play on linux
 
-13. hplip
+13. poker stars
 
 14. multimedia codecs
 
 15. retroarch
 
 16. zoom
+
+17. chrome
