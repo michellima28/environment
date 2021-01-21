@@ -37,7 +37,7 @@ echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sourc
 sudo apt install snapd
 sudo snap install spotify
 
-# wps office
+# wps office 2019
 echo "installing wps office 2019..."
 wget https://wdl1.pcfg.cache.wpscdn.com/wpsdl/wpsoffice/download/linux/10161/wps-office_11.1.0.10161.XA_amd64.deb
 sudo dpkg -i wps-office_11.1.0.10161.XA_amd64.deb
@@ -93,7 +93,6 @@ sudo add-apt-repository ppa:cybermax-dexter/sdl2-backport
 sudo apt update
 sudo apt install --install-recommends winehq-stable
 
-
 # playonlinux
 echo "installing playonlinux..."
 wget -q "http://deb.playonlinux.com/public.gpg" -O- | sudo apt-key add -
@@ -118,5 +117,12 @@ echo "installing zoom..."
 wget https://zoom.us/client/latest/zoom_amd64.deb
 sudo dpkg -i zoom_amd64.deb
 sudo rm -rf zoom_amd64.deb
+
+# chrome
+cd /home/$USER/
+https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb
+rm -rf google-chrome-stable_current_amd64.deb
+cd /home/$USER/github/environment/feren-os/
 
 echo "the script has finished. your apps has been installed!"
