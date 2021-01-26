@@ -14,27 +14,7 @@ This repository was built to store default apps and configurations that I use on
 sudo yum install git-all
 ```
 
-#### Feren OS
-
-```bash
-sudo apt update
-```
-
-```bash
-sudo apt install git
-```
-
-#### Pop OS
-
-```bash
-sudo apt update
-```
-
-```bash
-sudo apt install git
-```
-
-#### Ubuntu
+#### Feren OS / Pop OS / Ubuntu
 
 ```bash
 sudo apt update
@@ -154,6 +134,10 @@ Ubuntu
 16. chrome
 
 17. gnome-tweaks
+
+18. hypnotix
+
+19. pika backup
  
 ### Ubuntu
 

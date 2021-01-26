@@ -122,4 +122,15 @@ sudo apt install ./google-chrome-stable_current_amd64.deb
 rm -rf google-chrome-stable_current_amd64.deb
 cd /home/$USER/github/environment/ubuntu/
 
+# hypnotix
+echo "installing hypnotix..."
+cd /home/$USER
+wget https://github.com/linuxmint/hypnotix/releases/download/1.1/hypnotix_1.1_all.deb
+wget http://lug.mtu.edu/ubuntu/pool/universe/i/imdbpy/python3-imdbpy_6.8-2_all.deb
+sudo apt install ./python3-imdbpy_6.8-2_all.deb
+sudo apt install ./hypnotix_1.1_all.deb
+sudo rm -rf python3-imdbpy_6.8-2_all.deb
+sudo rm -rf hypnotix_1.1_all.deb
+cd /home/$USER/github/environment/pop-os/
+
 echo "the script has finished. your apps has been installed!"
