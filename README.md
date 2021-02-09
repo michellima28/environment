@@ -1,4 +1,4 @@
-![alt text](https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg)
+![alt text](https://www.hardware.com.br/static/20160729/li.png)
 
 This repository was built to store default apps and configurations that I use on my personal environment. I use Linux distros, until this present moment I have used three: Fedora, Ubuntu and Feren OS.
 
