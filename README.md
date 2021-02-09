@@ -1,8 +1,6 @@
-# Environment
+![alt text](https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg)
 
 This repository was built to store default apps and configurations that I use on my personal environment. I use Linux distros, until this present moment I have used three: Fedora, Ubuntu and Feren OS.
-
----
 
 ## Instructions
 
@@ -40,8 +38,6 @@ Feren OS
 Pop OS
 
 Ubuntu
-
----
 
 ## Apps
 
