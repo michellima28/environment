@@ -138,6 +138,8 @@ Ubuntu
 18. hypnotix
 
 19. pika backup
+
+20. flameshot
  
 ### Ubuntu
 

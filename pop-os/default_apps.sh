@@ -138,4 +138,8 @@ cd /home/$USER/github/environment/pop-os/
 echo "installing pika backup..."
 flatpak install --user https://flathub.org/repo/appstream/org.gnome.World.PikaBackup.flatpakref
 
+# flameshot
+echo "installing flameshot..."
+sudo snap install flameshot
+
 echo "the script has finished. your apps has been installed!"
