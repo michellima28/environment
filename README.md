@@ -136,6 +136,8 @@ Ubuntu
 19. pika backup
 
 20. flameshot
+
+21. youtube-dl
  
 ### Ubuntu
 

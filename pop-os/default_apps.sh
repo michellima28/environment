@@ -143,3 +143,8 @@ echo "installing flameshot..."
 sudo snap install flameshot
 
 echo "the script has finished. your apps has been installed!"
+
+# youtube-dl
+echo "installing youtube-dl - youtube videos downloader"
+sudo apt install ffmpeg
+sudo snap install youtube-dl
