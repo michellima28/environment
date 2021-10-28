@@ -24,11 +24,9 @@ echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sourc
 sudo apt install snapd
 sudo snap install spotify
 
-# wps office 2019
-echo "installing wps office 2019..."
-wget https://wdl1.pcfg.cache.wpscdn.com/wpsdl/wpsoffice/download/linux/10161/wps-office_11.1.0.10161.XA_amd64.deb
-sudo dpkg -i wps-office_11.1.0.10161.XA_amd64.deb
-sudo rm -rf wps-office_11.1.0.10161.XA_amd64.deb
+# wps office
+echo "installing wps office..."
+sudo snap install wps-office-all-lang-no-internet
 
 # musescore
 echo "installing musescore..."
