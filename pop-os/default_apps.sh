@@ -132,9 +132,12 @@ sudo rm -rf python3-imdbpy_6.8-2_all.deb
 sudo rm -rf hypnotix_1.1_all.deb
 cd /home/$USER/github/environment/pop-os/
 
-# pika backup
-echo "installing pika backup..."
-flatpak install --user https://flathub.org/repo/appstream/org.gnome.World.PikaBackup.flatpakref
+# duplicati (backup app)
+echo "installing duplicati..."
+wget https://github.com/duplicati/duplicati/releases/download/v2.0.5.111-2.0.5.111_canary_2020-09-26/duplicati_2.0.5.111-1_all.deb -O duplicati.deb
+sudo dpkg -i duplicati.deb
+sudo apt-get install -f
+sudo rm -rf duplicati.deb
 
 # flameshot
 echo "installing flameshot..."

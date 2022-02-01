@@ -133,7 +133,7 @@ Ubuntu
 
 18. hypnotix
 
-19. pika backup
+19. duplicati
 
 20. flameshot
 
